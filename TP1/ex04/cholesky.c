@@ -58,13 +58,14 @@ int main(){
 	//find the cholesky matrix
 	c[N][N]=cholesky(c, a, 4);
 	//printing  c
+	printf("the c matric \n");
 	for(int i=0;i<n;i++){
 		for(int j=0;j<n;j++){
 		printf("c[%d][%d] = %f\t",i, j, c[i][j]);
 		}
 		printf("\n");
 	}
-	printf("the c matric \n");
+	
 	//solve c(Transose)*y=b
 	
 	y[0]=b[0]/c[0][0];
