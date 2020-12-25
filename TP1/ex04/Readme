@@ -1,4 +1,4 @@
- in order to compile cholesky.c please use :
+in order to compile cholesky.c please use :
 
 gcc cholseky.c -o cholesky -lm
 
