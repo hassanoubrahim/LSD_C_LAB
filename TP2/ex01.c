@@ -31,10 +31,6 @@ float trapez(float(f)(float), float a, float b, int n){
 }	
 
 
-// si on déclare une autre fonction g et la fonction integral prend pointer vers cette fonction alors 
-// si on utilise g dans main ça va marcher
-
-
 int main()
 {
     float droite = rectangledroite(f,0, 1, 10);
